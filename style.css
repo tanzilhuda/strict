@@ -1,0 +1,194 @@
+
+/* =========================
+  Author: Tanzil Huda
+   =========================
+*/
+*{margin: 0;padding: 0;}
+a:focus{outline: none;}
+
+/*-----.section1-----*/
+.section1{
+	padding: 20px;
+}
+
+/*-----.section2-----*/
+.section2{
+	background-image: url("images/Strictbg1.jpg");
+	background-size: cover;
+	height: 630px;
+	width: 100%;
+	padding: 130px  0 20px;
+	color: #fff;
+}
+.section2 h2{
+	display: block;
+	font-size: 100px;
+}
+.section2 p{
+	font-size: 18px;
+	display: inline-block;
+	border-top: 2px solid #2585C2;
+	clear: both;
+	padding:  20px
+}
+.section2 #action{
+	border: 1px solid #2585c2;
+	border-radius: 3px;
+	color: #dedede;
+	display: block;
+	font-size: 18px;
+	margin: 50px auto 80px;
+	padding: 6px;
+	text-align: center;
+	text-decoration: none;
+	width: 170px;
+	transition:all 0.5s;
+	-webkit-transition:all 0.5s;
+	-moz-transition:all 0.5s;
+	-o-transition:all 0.5s;
+}
+.section2 #action:hover{
+	color: #2585c2;
+	text-decoration: none;
+}
+#angle {
+  color: #fff;
+  font-size: 23px;
+  text-decoration: none;
+}
+
+/*-----.section3-----*/
+.section3{
+	background: #F6F9F9;
+	padding: 60px 0;
+}
+
+/*-----.section4-----*/
+.section4{
+	padding: 50px 0;
+}
+.section4 a{
+	background: none repeat scroll 0 0 #5FC3FF;
+	color: #fff;
+	width: 75px;
+	padding: 20px 0;
+	font-size: 30px;
+	height: 75px;
+	text-shadow:0 3px 2px #000;
+	text-decoration: none;
+}
+.section4 a:hover{
+	background: #48BAFF;
+}
+/*-----.section5-----*/
+.section5{
+	background: #F6F9F9;
+	padding: 60px 0;
+}
+.portfolio, .section6 p{
+	margin-bottom: 50px;
+}
+.portfoilio-item{
+	padding: 15px ;
+	  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.portfoilio-item .inner-item{
+	position: relative;
+}
+.portfoilio-item .inner-item .inner-icon{
+	background: none repeat scroll 0 0 rgba(40,170,240, 0.5);
+	bottom: 0;
+	left: 0;
+	opacity: 0;
+	padding-top: 28%;
+	position: absolute;
+	right: 0;
+	transition: opacity 400ms ease 0s;
+	height: 100%;
+	text-align: center;
+}
+.portfoilio-item .inner-item .inner-icon a{
+	border: 1px solid #dedede;
+	color: #dedede;
+	display: inline-block;
+	font-size: 22px;
+	padding: 5px 12px;
+	border-radius: 4px;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+}
+.portfoilio-item:hover .inner-icon{
+	opacity: 1;
+}
+.portfoilio-item .inner-item .inner-icon a:hover{
+	color: #fff;
+	border:1px solid #fff;
+}
+/*-----.section6-----*/
+.section6{
+	background: url("images/Strictbg2.jpg");
+	background-size: cover;
+	padding: 60px 0;
+	color: #999999;
+}
+.section6 h3, .section6 p, .section6 input{color: #fff}
+
+#text,#email{
+  background: none repeat scroll 0 0 transparent;
+  border: 1px solid #999999;
+  border-radius: 3px;
+  height: 40px;
+  margin-bottom: 7px;
+  width: 100%;
+  color: #fff;
+  padding:0 10px;
+}
+#textarea {
+  background: none repeat scroll 0 0 transparent;
+  border: 1px solid #999999;
+  border-radius: 3px;
+  height: 100px;
+  margin-bottom: 7px;
+  width: 100%;
+  color: #fff;
+  padding: 10px;
+}
+.send {
+  width: 90px;
+  background: transparent;
+  border: 1px solid #999999 ;
+  padding: 4px;
+  display: block;
+  border-radius: 3px;
+  float: right;
+}
+/*-----.section7-----*/
+.section7{
+	background: #F6F9F9;
+	padding: 20px 0 ;
+}
+.section7 p{
+	color:#AEAFAF;
+}
+.social-icon a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  background:  #51ACE0;
+  padding-top: 15px;
+  text-align: center;
+  border-radius: 3px;
+  text-decoration: none;
+}
+.social-icon a:hover{
+	background: #15A4FA;
+}

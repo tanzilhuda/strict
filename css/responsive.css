@@ -1,0 +1,40 @@
+@media only screen and (max-width: 767px){
+	.portfoilio-item {
+	  box-sizing: border-box;
+	  padding: 5px;
+	}
+}
+
+@media only screen and (max-width: 479px){
+	.portfoilio-item {
+	  box-sizing: border-box;
+	  padding: 1px;
+	}
+	.portfoilio-item .inner-item .inner-icon a {
+	  font-size: 12px;
+	  padding: 5px 10px;
+	}
+	.section2{
+		height: 400px;
+		padding: 20px 0;
+	}
+	.section2 h2 {
+	  font-size: 50px;
+	}
+	.social-icon a {
+		height: 35px;
+		width: 35px;
+		padding-top: 12px;
+	}
+	.section2 #action{
+		margin: 20px auto 40px;
+	}
+	.section4 h4{
+		font-size: 16px;
+	}
+	.section4 p{
+		font-size: 12px;
+		margin: 0;
+		text-align: left;
+	}
+}
